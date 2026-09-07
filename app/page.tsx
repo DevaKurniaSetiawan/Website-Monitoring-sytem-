@@ -8,7 +8,7 @@ import { Activity, ChevronLeft, ChevronRight, Download, Droplets, Eye, Flame, Th
 import { useCallback, useEffect, useState } from "react"
 
 // Configuration - Set to true to use dummy data, false to use actual sensor data
-const USE_DUMMY = false
+const USE_DUMMY = true
 
 interface SensorData {
   temperature: number
